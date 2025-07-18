@@ -1,10 +1,14 @@
 var EligibleVote = function(age) {
-   if (age >= 18) {
-    return "Eligible to vote"
+   if( age < 1) {
+     console.log("Invalid input")
+   }
+   else if (age < 18) {
+    console.log("Below 18, not eligible to vote")
    } else {
-    return "Below 18, not eligible to vote"
+    console.log("Eligible to vote")
    }
 }
 
-console.log(EligibleVote(19));
-console.log(EligibleVote(17));
+EligibleVote(17);
+EligibleVote(20);
+EligibleVote(-1);

@@ -1,6 +1,11 @@
-var getSum = function(a, b) {
-    return a+b
-};
-getSum(1,2)
-
-console.log(getSum(1, 2));
+function sum(a, b) {
+    const result = a + b;
+    console.log(result);
+  }
+  
+  const a = 10;
+  const b = 20;
+  const c = 30;
+  
+  sum(a, b); 
+  sum(a, c); 

@@ -1,7 +1,6 @@
-var MySquare = function (x) {
-    return Math.floor(Math.sqrt(x));
-}
-
-MySquare(16);
-
-console.log(MySquare(16));
+function square(num) {
+    return num * num;
+  }
+  
+  const value = square(5);
+  console.log(value); 
