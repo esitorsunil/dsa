@@ -12,7 +12,7 @@ function secondlarg(arr) {
         if(arr[i] > firstLargest) {
             secondLargest = firstLargest
             firstLargest = arr[i]
-        }else if (arr[i] > secondLargest) {
+        }else if (arr[i] !== firstLargest && arr[i] > secondLargest) {
             secondLargest = arr[i]
         }
     }
