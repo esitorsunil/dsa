@@ -1,12 +1,12 @@
 //second largest
 
-let arr1 = [2,4,6,7,8,1]
+let arr1 = [10,4,6,7,8,1]
 
 function secondlarg(arr) {
     if (arr.length < 2) return null;
     
-    let firstLargest = arr[0]
-    let secondLargest = arr[0]
+    let firstLargest = -Infinity
+    let secondLargest = -Infinity
     
     for(let i=0; i<arr.length; i++){
         if(arr[i] > firstLargest) {
