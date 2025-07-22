@@ -10,7 +10,7 @@ for (let i=0; i<4; i++){
     }
 }
 
-//exclude diagonal
+//Lower Triangle (excluding diagonal)
 
 
 for (let i=0; i<3; i++) {
@@ -19,10 +19,32 @@ for (let i=0; i<3; i++) {
     }
 }
 
-//include diagonal
+//Lower Triangle (including diagonal)
 
 for (let i=0; i<3; i++) {
     for(let j=0; j<=i; j++){
         console.log(i, j)
     }
 }
+
+
+// Reverse Loop from i
+for (let i=0; i<3; i++){
+    for(let j=i; j > 0; j--){
+        console.log(i, j)
+    }
+}
+
+// Inverted Triangle (top-down)
+for (let i=5; i > 0; i--){
+    for(let j=0; j < i; j++) {
+        console.log(i, j)
+    }
+}
+
+
+
+// use cases
+//  Grid navigation, matrix traversal →            Pattern 01
+//  Building lower/upper triangles in 2D arrays →  Pattern 02, 03
+//  Dynamic inner loop ranges →                    Pattern 04, 05
