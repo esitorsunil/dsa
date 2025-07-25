@@ -12,14 +12,38 @@ for(let i=0; i<4; i++){
 }
 
 // right angle triangle
-
-for (let i=0; i<5; i++){
+//let n= 4
+for (let i=0; i<n; i++){
     let row = ""
-    for(let j=0; j<i; j++){
-        row = row+ "*"
+    for(let j=0; j<= i; j++){
+        row += "*"
     }
     console.log(row)
 }
+
+// right angle number triangle
+
+//let n = 4
+
+for (i=0; i<n; i++){
+    let row=""
+    for(let j=0; j<=i; j++){
+        row+= j+1 + " "
+    }
+    console.log(row)
+}
+
+// Triangle with repeating row numbers
+
+//let n= 4
+for (let i=0; i<n; i++){
+    let row=""
+    for(let j=0; j<=i; j++){
+        row+= i+1 + " "
+    }
+    console.log(row)
+}
+
 
 
 
