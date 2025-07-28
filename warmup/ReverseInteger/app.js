@@ -1,3 +1,16 @@
+//leetcode 7. Reverse Integer
+
+// x % 10 = 3 
+// x % 10 = 2
+// x % 10 = 1 
+
+
+// Math.floor(x / 10) = 12 x / 10 = 12
+
+// 0 * 10 + 3 = 3
+// 3 * 10 + 2 = 32
+// 32 * 10 + 1 = 321
+
 function reverseInteger(x) {
     const isNegative = x < 0;
     x = Math.abs(x)
@@ -19,5 +32,6 @@ function reverseInteger(x) {
 
 console.log(reverseInteger(123))
 console.log(reverseInteger(-123))
+console.log(reverseInteger(120))
 console.log(reverseInteger(1534236469)) 
 console.log(reverseInteger(-3534236469)) 
