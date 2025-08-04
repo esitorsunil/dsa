@@ -18,3 +18,7 @@ function removeDuplicates(nums) {
 
   console.log(removeDuplicates([1, 1, 2])); // Output: 2
 console.log(removeDuplicates([0, 0, 1, 1, 1, 2, 2, 3, 3, 4])); // Output: 5
+
+
+//Time Complexity: O(n) One pass through the array.
+//Space Complexity: O(1) No extra space used.

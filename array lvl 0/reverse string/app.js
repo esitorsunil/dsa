@@ -20,3 +20,10 @@ function reverseString(s) {
 
 console.log(reverseString(["h", "e", "l", "l", "o"])); // Output: ['o','l','l','e','h']
 console.log(reverseString(["H", "a", "n", "n", "a", "h"])); // Output: ['h','a','n','n','a','H']
+
+
+
+//Time Complexity: O(n) Each element is visited at most once (only the first half), so it's linear with respect to the length of the array.
+//Space Complexity: O(1) Only a single temporary variable is used for swapping.
+//two pointer approach
+//in place reversal

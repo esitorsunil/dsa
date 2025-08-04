@@ -19,3 +19,8 @@ function removeElement(nums, val) {
 
 console.log(removeElement([3, 2, 2, 3], 3)); // Output: 2
 console.log(removeElement([0, 1, 2, 2, 3, 0, 4, 2], 2)); // Output: 5
+
+
+//Time Complexity: O(n) One pass through the array.
+
+//Space Complexity: O(1) No extra space used; modifies array in-place.
