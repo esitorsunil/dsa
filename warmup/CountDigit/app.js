@@ -13,5 +13,5 @@ function countDigit(n) {
     return count
 }
 
-console.log(countDigit(1234))
+console.log(countDigit(1234)) 
 console.log(countDigit(-12304))
