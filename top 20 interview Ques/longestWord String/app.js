@@ -1,6 +1,6 @@
 function longestWord (word) {
 
-    word = word.match(/[a-zA-z0-9]+ /gi)
+    word = word.match(/[a-zA-z0-9]+/gi)
 
     let longest = ""
 
@@ -12,4 +12,4 @@ function longestWord (word) {
     return longest
 }
 
-console.log(longestWord("This is speaking yeswsdadadsadasads "))
+console.log(longestWord("This is speaking yeswsdadadsadasads"))
