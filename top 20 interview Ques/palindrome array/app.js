@@ -1,4 +1,4 @@
-
+function isPalindrome(word) {
 function isReverse(str) {
     let reverse = ""
 
@@ -7,5 +7,15 @@ function isReverse(str) {
     }
     return reverse
 }
+  let result = {}
 
-console.log(isReverse("Hello"))
+  for (let i = 0; i < word.length; i++) {
+    let wordResult = word[i]
+    result [wordResult] = wordResult === isReverse(wordResult)
+
+}
+
+  return result
+}
+
+console.log(isPalindrome(["Java", "Python", "limit"]));
