@@ -17,7 +17,6 @@ function reverseString(s) {
   return s;
 }
 
-
 console.log(reverseString(["h", "e", "l", "l", "o"])); // Output: ['o','l','l','e','h']
 console.log(reverseString(["H", "a", "n", "n", "a", "h"])); // Output: ['h','a','n','n','a','H']
 
