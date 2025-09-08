@@ -8,7 +8,7 @@ function balancedParanthesis (str) {
 
         if(stack[char] === "(") {
             top ++
-
+            
             stack[top] = "("
         }
         else if (char[str] === ")") {
