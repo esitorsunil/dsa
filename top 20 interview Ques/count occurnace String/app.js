@@ -1,15 +1,18 @@
-function countOccurance (str) {
+function countOccurance(str) {
+    let result = {}
 
-    let count = {}
+    for(let i=0; i < str.length; i++) {
+        let char = str [i].toLowerCase();
 
-    for (let char of str) {
-        if (count [char]) {
-            count[char]++
+        if (char !== " ") {
+        if(result[char]) {
+            result[char]++
         } else {
-            count[char] = 1
-        } 
+            result[char] = 1
+        }
+      }
     }
-    return count
+    return result
 }
 
-console.log(countOccurance ("My name is Sunil"))
+console.log (countOccurance("This is speaking"))

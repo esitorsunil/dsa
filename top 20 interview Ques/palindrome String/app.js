@@ -7,8 +7,8 @@ function isPalindrome(str)  {
         }
         return reversed
     }
-    const cleanedStr = str
+    const cleanedStr = str.toLowerCase()
     return cleanedStr === reverse(cleanedStr) 
 }
 
-console.log(isPalindrome(["Java" , "Python" , "limit"]))
+console.log(isPalindrome("limiL"))
