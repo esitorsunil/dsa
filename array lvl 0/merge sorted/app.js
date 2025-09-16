@@ -1,3 +1,6 @@
+//nums1 = [1,2,3,0,0,0] m=3
+//nums2 = [12,31,4] n=3
+
 function mergeSorted (nums1, m, nums2, n) {
   let p1 = m -1;
   let p2 = n -1;
