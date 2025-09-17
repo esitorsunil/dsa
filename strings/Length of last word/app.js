@@ -18,8 +18,8 @@ function LengthofLastWord(s) {
   let n = s.length - 1
 
   while (n >=0 ) {
-    if(n == " ") {
-      --n
+    if(s[n] == " ") {
+      --n;
     }else {
       break;
     }
@@ -28,7 +28,8 @@ function LengthofLastWord(s) {
   let count = 0
 
   while(n>=0) {
-    if(n !== " ") {
+    if(s[n] !== " ") {
+      --n;
       count++
     }else {
       break
